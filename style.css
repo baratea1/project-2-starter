@@ -21,10 +21,6 @@
     cursor: pointer;
 }
 
-.pfp:active{
-    
-}
-
 .flex-container{
     display: flex;
     width: 300px;
