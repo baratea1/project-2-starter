@@ -22,6 +22,11 @@ img{
     margin: 10px;
 }
 
+.flex-container:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
 .background-container{
     display: flex;
     background-color: red;
@@ -31,3 +36,4 @@ img{
     flex-wrap: wrap;
     padding: 20px;
 }
+
