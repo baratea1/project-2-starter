@@ -1,0 +1,33 @@
+/* STYLE FOR YOUR INDEX.HTML */
+img{
+    display: flex;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.flex-container{
+    display: flex;
+    width: 300px;
+    height: auto;
+    background-color: gainsboro;
+    border: 3px solid black;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+
+.background-container{
+    display: flex;
+    background-color: red;
+    border: 3px solid black;
+    flex-direction: row;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
