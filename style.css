@@ -1,5 +1,5 @@
 /* STYLE FOR YOUR INDEX.HTML */
-img{
+.headshot{
     display: flex;
     object-fit: cover;
     width: 200px;
@@ -7,6 +7,22 @@ img{
     margin: auto;
     border: 2px solid black;
     border-radius: 15px;
+}
+
+.home-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pfp:hover{
+    cursor: pointer;
+}
+
+.pfp:active{
+    
 }
 
 .flex-container{
@@ -31,7 +47,7 @@ img{
     display: flex;
     background-color: red;
     border: 3px solid black;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:flex-start;
     flex-wrap: wrap;
     padding: 20px;
