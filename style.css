@@ -2,8 +2,8 @@
 .headshot{
     display: flex;
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: auto;
     margin-top: 10px;
     margin-left: 10%;
@@ -14,28 +14,25 @@
 }
 
 .hover-text{
-    opacity: 0.25; /**/
+    opacity: 0; /**/
     align-items: flex-end;
     transition: opacity 0.5s;
 }
 .pfp-container{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
    width: 100%;
    margin-bottom: 20px;
 }
 
 .pfp{
-    width: 175px;
-}
-.pfp:hover{
-    cursor: pointer;
+    width: 100px;
 }
 
 .headshot-container{
     display: flex;
-    width: 50vw;
+    width: 40vw;
     height: auto;
     background-color: gainsboro;
     border: 3px solid black;
@@ -56,7 +53,7 @@
 }
 
 .headshot-container:hover .headshot{
-    transform: scale(1.2);
+    transform: scale(1.3);
     margin-left: 60px;
 }
 
@@ -72,12 +69,41 @@
     margin-top: 0px;
 }
 
-.background-container{
+.btn1{
     display: flex;
-    background-color: red;
+    width: 40vw;
+    height: 6vw;
+    margin: auto;
+    background-color: gray;
     border: 3px solid black;
     flex-direction: column;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+}
+
+.btn1:hover .hover-text{
+opacity: 1;
+}
+
+.background-container{
+    display: flex;
+    background-color: yellow;
+    border: 3px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+}
+
+@font-face {
+    font-family: filipinoFont;
+    src: url(assets/Quiapo_Free.otf);
+}
+
+h2{
+    font-family: filipinoFont;
+    font-size: xxx-large;
 }
 
